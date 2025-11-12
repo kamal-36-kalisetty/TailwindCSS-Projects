@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agency Website</title>
+    <link rel="stylesheet" href="src/output.css" />
+  </head>
+  <body class="bg-gray-50 text-gray-800">
+    <!-- nav section -->
+
+    <nav class="bg-white w-full top-0 z-10 fixed shadow">
+      <div
+        class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between"
+      >
+        <h1 class="text-2xl font-bold text-indigo-600">
+          Creative<span class="text-gray-800">Agency</span>
+        </h1>
+
+        <div class="space-x-6">
+          <a href="#home" class="hover:text-indigo-600 transition">Home</a>
+          <a href="#services" class="hover:text-indigo-600 transition"
+            >Services</a
+          >
+          <a href="#portfolio" class="hover:text-indigo-600 transition"
+            >Portfolio</a
+          >
+          <a href="#contact" class="hover:text-indigo-600 transition"
+            >Contact</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header
+      id="home"
+      class="pt-28 pb-20 bg-gradient-to-r from-indigo-500 to-purple-600 text-white text-center"
+    >
+      <h1 class="text-5xl font-bold mb-4">We Build Amazing Websites 🚀</h1>
+      <p class="text-lg mb-6">
+        Design, develop, and deliver modern digital experiences.
+      </p>
+      <a
+        href="#contact"
+        class="bg-white text-indigo-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-200 transition"
+        >Get in Touch</a
+      >
+    </header>
+
+    <!-- Services Section -->
+
+    <section id="services" class="max-w-6xl mx-auto py-16 px-6 text-center">
+      <h3 class="text-3xl font-bold text-indigo-600 mb-8">Our Services</h3>
+      <div class="grid gap-8 sm:grid-cols-2 md:grid-cols-3">
+        <div
+          class="bg-white rounded-xl shadow-xl p-6 hover:-translate-y-2 transition"
+        >
+          <h3 class="text-xl font-semibold mb-3">Web Design</h3>
+          <p class="text-gray-600">
+            Beautiful, responsive, and user-friendly designs that make your
+            brand stand out.
+          </p>
+        </div>
+        <div
+          class="bg-white shadow-xl rounded-xl p-6 hover:-translate-y-2 transition"
+        >
+          <h3 class="text-xl font-semibold mb-3">Development</h3>
+          <p class="text-gray-600">
+            From static websites to dynamic applications — we code your ideas
+            into reality.
+          </p>
+        </div>
+        <div
+          class="bg-white shadow-xl rounded-xl p-6 hover:-translate-y-2 transition"
+        >
+          <h3 class="text-xl font-semibold mb-3">Branding</h3>
+          <p class="text-gray-600">
+            We help build your visual identity through creative branding and
+            design strategy.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+
+    <section id="portfolio" class="bg-gray-100 py-16">
+      <div class="max-w-6xl mx-auto px-6 text-center">
+        <h3 class="text-3xl font-bold text-indigo-600 mb-8">Our Work</h3>
+        <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+          <div class="relative group overflow-hidden rounded-lg shadow-lg">
+            <img
+              src="https://cdn.pixabay.com/photo/2015/09/04/23/28/wordpress-923188_1280.jpg"
+              alt="Img"
+              class="w-full h-56 object-cover group-hover:scale-110 transition-transform"
+            />
+            <div
+              class="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 text-white transition"
+            >
+              <p class="text-lg font-semibold">Corporate Website</p>
+            </div>
+          </div>
+
+          <!-- 2nd card -->
+
+          <div class="relative group rounded-lg shadow-lg overflow-hidden">
+            <img
+              src="https://cdn.pixabay.com/photo/2015/07/03/17/23/iphone-830480_1280.jpg"
+              alt="img"
+              class="h-56 w-full object-cover group-hover:scale-110 transition-transform"
+            />
+            <div
+              class="absolute inset-0 flex items-center justify-center opacity-0 bg-black/50 group-hover:opacity-100 text-white transition"
+            >
+              <p class="text-lg font-semibold">Mobile App Design</p>
+            </div>
+          </div>
+
+          <!-- 3rd card -->
+
+          <div class="relative rounded-lg shadow-lg overflow-hidden group">
+            <img
+              src="https://cdn.pixabay.com/photo/2018/08/29/17/07/ecommerce-3640321_1280.jpg"
+              alt="img"
+              class="w-full h-56 object-fit group-hover:scale-110 transition-transform"
+            />
+            <div
+              class="absolute inset-0 text-white flex items-center justify-center group-hover:opacity-100 opacity-0 bg-black/50 transition"
+            >
+              <p class="text-lg font-semibold">E-commerce Platform</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="max-w-4xl mx-auto py-16 px-6 text-center">
+      <h3 class="text-3xl font-bold text-indigo-600 mb-4">
+        Let’s Work Together
+      </h3>
+      <p class="text-md text-gray-700 mb-6">
+        Have an idea or project? Let’s bring it to life!
+      </p>
+      <a
+        href="mailto:kamalkalisettykk@gmail.com"
+        class="bg-indigo-600 px-6 py-3 text-white rounded-lg hover:bg-indigo-700 transition"
+        >Contact Us 📧</a
+      >
+    </section>
+
+    <!-- footer -->
+
+    <footer
+      class="text-sm text-gray-500 text-center py-6 border-t border-gray-300"
+    >
+      © 2025 Creative Agency. All rights reserved.
+    </footer>
+  </body>
+</html>

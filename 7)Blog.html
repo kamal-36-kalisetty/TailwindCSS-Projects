@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Layout</title>
+    <link rel="stylesheet" href="src/output.css" />
+  </head>
+  <body class="bg-gray-50 text-gray-800">
+    <header
+      class="bg-blue-500 py-10 text-center text-white bg-gradient-to-r from-blue-400 to-indigo-800"
+    >
+      <h2 class="text-4xl font-bold mb-2">Blog</h2>
+      <p class="text-lg font-normal">
+        Insights, tutorials, and stories on web development
+      </p>
+    </header>
+
+    <!-- Blog Section -->
+
+    <section class="max-w-6xl mx-auto px-6 py-16">
+      <h2 class="text-3xl font-bold text-blue-600 text-center mb-10">
+        Latest Posts
+      </h2>
+      <div class="grid gap-10 lg:grid-cols-3 sm:grid-cols-2">
+        <!-- card1 -->
+        <article
+          class="bg-white shadow-xl rounded overflow-hidden hover:-translate-y-1 transition"
+        >
+          <img
+            src="https://cdn.pixabay.com/photo/2025/10/12/21/46/animal-9890745_1280.jpg"
+            alt="Blog Img"
+            class="w-full sm:object-fill h-48"
+          />
+          <div class="p-6">
+            <h2 class="text-xl font-semibold mb-2">Mastering Tailwind CSS</h2>
+            <p class="text-gray-600 mb-4">
+              Learn how to build beautiful and responsive UIs faster with
+              Tailwind CSS.
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span
+                class="bg-blue-100 text-blue-700 text-sm rounded-full py-1 px-3"
+                >Tailwind</span
+              >
+              <span
+                class="bg-purple-100 text-purple-600 text-sm px-3 rounded-full py-1"
+                >CSS</span
+              >
+              <span
+                class="text-pink-600 bg-pink-100 text-sm rounded-full px-3 py-1"
+                >Design</span
+              >
+            </div>
+          </div>
+        </article>
+
+        <!-- card2 -->
+        <article
+          class="bg-white shadow-xl rounded overflow-hidden hover:-translate-y-1 transition"
+        >
+          <img
+            src="https://cdn.pixabay.com/photo/2025/09/11/06/16/architecture-9827472_1280.jpg"
+            alt="Blog Img"
+            class="w-full object-cover h-48"
+          />
+          <div class="p-6">
+            <h2 class="text-xl font-semibold mb-2">
+              JavaScript Tips for Beginners
+            </h2>
+            <p class="text-gray-600 mb-4">
+              Discover useful JavaScript tricks that can improve your coding
+              skills.
+            </p>
+
+            <div class="flex flex-wrap gap-2">
+              <span
+                class="bg-yellow-100 text-sm rounded-full text-yellow-600 px-3 py-1"
+                >JavaScript</span
+              >
+              <span
+                class="text-sm bg-green-100 text-green-600 px-3 py-1 rounded-full"
+                >Web Dev</span
+              >
+            </div>
+          </div>
+        </article>
+
+        <!-- card3 -->
+        <article
+          class="bg-white shadow-xl rounded overflow-hidden hover:-translate-y-1 transition"
+        >
+          <img
+            src="https://cdn.pixabay.com/photo/2025/08/29/11/16/norway-9803687_1280.jpg"
+            alt="Img"
+            class="w-full h-48 object-cover"
+          />
+          <div class="p-6">
+            <h2 class="text-xl font-semibold mb-2">Building Apps with React</h2>
+            <p class="text-gray-600 mb-4">
+              Understand the fundamentals of React and how to structure modern
+              web apps.
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span
+                class="text-sm bg-blue-100 text-blue-600 px-3 py-1 rounded-full"
+                >React</span
+              >
+              <span
+                class="text-sm bg-gray-100 text-gray-600 px-3 py-1 rounded-full"
+                >Frontend</span
+              >
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer
+      class="bg-white py-6 border-t border-gray-300 text-sm text-center text-gray-500"
+    >
+      &copy; 2025 My Blog. All rights reserved.
+    </footer>
+  </body>
+</html>

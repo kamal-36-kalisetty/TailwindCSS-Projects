@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>Gym Website</title>
+    <link rel="stylesheet" href="src/output.css" />
+  </head>
+  <body class="bg-gray-50 text-gray-800">
+    <!-- header section -->
+
+    <header
+      class="relative h-[80vh] bg-cover bg-center"
+      style="
+        background-image: url('https://cdn.pixabay.com/photo/2025/10/12/16/36/sunset-glow-9890310_1280.jpg');
+      "
+    >
+      <div
+        class="absolute inset-0 bg-black/60 text-white flex flex-col items-center justify-center text-center"
+      >
+        <h1 class="text-5xl font-bold mb-4">
+          Welcome to <span class="text-amber-300">FitZone</span>
+        </h1>
+        <p class="text-lg mb-6">Train Hard. Stay Strong. Live Healthy.</p>
+        <a
+          href="#classes"
+          class="bg-amber-300 text-black font-semibold px-6 py-3 rounded-lg hover:bg-amber-200 transition"
+          >Explore Classes</a
+        >
+      </div>
+    </header>
+
+    <!-- Classes Section -->
+
+    <section id="classes" class="max-w-6xl mx-auto px-6 py-16 text-center">
+      <h3 class="text-amber-300 text-3xl font-bold mb-8">Our Classes</h3>
+      <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <div
+          class="bg-white rounded-lg shadow-lg p-6 hover:-translate-y-2 transition"
+        >
+          <h3 class="text-xl font-semibold mb-2">Yoga</h3>
+          <p class="text-gray-600">
+            Improve flexibility and relax your mind through guided yoga
+            sessions.
+          </p>
+        </div>
+
+        <!-- 2nd card -->
+        <div
+          class="bg-white p-6 rounded-lg shadow-lg hover:-translate-y-2 transition"
+        >
+          <h3 class="text-xl font-semibold mb-2">Cardio</h3>
+          <p class="text-gray-600">
+            Boost stamina and burn calories with fun and energetic workouts.
+          </p>
+        </div>
+
+        <!-- 3rd card -->
+
+        <div
+          class="bg-white p-6 rounded-lg shadow-lg hover:-translate-y-2 transition"
+        >
+          <h3 class="text-xl font-semibold mb-2">Strength Training</h3>
+          <p class="text-gray-600">
+            Build muscle and endurance with our advanced strength programs.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trainers Section -->
+    <section class="bg-gray-100 py-16">
+      <div class="max-w-6xl mx-auto px-6 text-center">
+        <h3 class="text-3xl font-bold text-amber-300 mb-8">
+          Meet Our Trainers
+        </h3>
+        <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
+          <div class="bg-white p-6 rounded-lg shadow-lg">
+            <img
+              src="https://cdn.pixabay.com/photo/2016/11/21/12/42/beard-1845166_1280.jpg"
+              alt="img"
+              class="w-35 h-35 object-cover mx-auto rounded-full mb-2 border-2 border-amber-400"
+            />
+            <h4 class="text-lg font-semibold">John Carter</h4>
+            <p class="text-gray-500">Strength Core</p>
+          </div>
+          <!-- 2nd card -->
+          <div class="bg-white p-6 rounded-lg shadow-lg">
+            <img
+              src="https://cdn.pixabay.com/photo/2016/11/29/03/35/girl-1867092_1280.jpg"
+              alt="img2"
+              class="w-35 h-35 mx-auto rounded-full object-cover mb-2 border-2 border-amber-400"
+            />
+            <h4 class="text-lg font-semibold">Emma Stone</h4>
+            <p class="text-gray-500">Yoga Instructor</p>
+          </div>
+          <!-- 3rd card -->
+          <div class="bg-white p-6 rounded-lg shadow-lg">
+            <img
+              src="https://cdn.pixabay.com/photo/2020/12/29/08/01/male-5869622_1280.jpg"
+              alt="img3"
+              class="w-35 h-35 mx-auto rounded-full object-cover mb-2 border-2 border-amber-400"
+            />
+            <h4 class="text-lg font-semibold">Mike Johnson</h4>
+            <p class="text-gray-500">Cardio Expert</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Review Section -->
+
+    <section class="max-w-5xl mx-auto py-16 px-6 text-center">
+      <h3 class="text-3xl text-amber-300 font-bold mb-8">
+        What Our Clients Say
+      </h3>
+      <div class="grid sm:grid-cols-2 gap-6">
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+          <p class="text-gray-600 mb-4">
+            "FitZone helped me completely transform my lifestyle. Highly
+            recommend their classes!"
+          </p>
+          <span class="font-semibold">— Sarah K.</span>
+        </div>
+
+        <!-- card-2 -->
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+          <p class="text-gray-600 mb-4">
+            "Amazing trainers and great energy! Every session motivates me to
+            push harder."
+          </p>
+          <span class="font-semibold">— David L.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section -->
+
+    <footer
+      class="text-sm py-6 border-t border-gray-300 text-center bg-gradient-to-r from-red-400 to-indigo-600"
+    >
+      © 2025 FitZone Gym. All rights reserved.
+    </footer>
+  </body>
+</html>

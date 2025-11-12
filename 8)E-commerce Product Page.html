@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Page</title>
+    <link rel="stylesheet" href="src/output.css" />
+  </head>
+  <body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div
+      class="bg-white rounded-xl shadow-lg max-w-4xl w-full flex flex-col md:flex-row overflow-hidden"
+    >
+      <!-- Product Image -->
+      <div class="md:w-1/2">
+        <img
+          src="https://cdn.pixabay.com/photo/2018/09/07/23/58/headphone-3661771_1280.jpg"
+          alt="Product"
+          class="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+        />
+      </div>
+
+      <!-- Product Details -->
+      <div class="p-8 md:w-1/2 flex flex-col justify-center">
+        <h2 class="text-3xl font-bold mb-2 text-gray-800">
+          Stylish Headphones
+        </h2>
+        <p class="text-gray-500 mb-4">
+          Experience high-quality sound with our latest wireless headphones.
+          Comfortable, durable, and designed for music lovers.
+        </p>
+
+        <p class="text-2xl font-semibold text-blue-600 mb-6">$129.99</p>
+
+        <button
+          class="bg-blue-600 text-white py-3 rounded-lg font-medium hover:bg-blue-700 transition duration-300 focus:outline-none focus:ring-2 focus:ring-blue-300"
+        >
+          Add to Cart
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

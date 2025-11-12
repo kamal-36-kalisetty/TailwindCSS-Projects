@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="src/output.css" />
+  </head>
+  <body class="bg-gray-100 text-gray-800">
+    <!-- Hero Section -->
+
+    <header
+      class="h-[70vh] bg-center bg-cover relative"
+      style="
+        background-image: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092');
+      "
+    >
+      <div
+        class="absolute inset-0 bg-black/50 flex flex-col items-center justify-center text-white text-center"
+      >
+        <h1 class="text-5xl font-bold mb-4">
+          Welcome to <span class="text-yellow-400">TastyBites</span>
+        </h1>
+        <p class="text-lg mb-6">Delicious food made with love ❤️</p>
+        <a
+          href="#menu"
+          class="bg-yellow-400 hover:bg-yellow-300 font-semibold text-black px-6 py-3 rounded-lg"
+          >View Menu</a
+        >
+      </div>
+    </header>
+
+    <!-- Menu Section -->
+    <section id="menu" class="max-w-6xl mx-auto px-6 py-16 text-center">
+      <h2 class="text-3xl font-bold text-yellow-500 mb-10">Our Menu</h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- --card-1 -->
+        <div
+          class="bg-white shadow-xl rounded-xl overflow-hidden hover:-translate-y-2 transition"
+        >
+          <img
+            src="https://cdn.pixabay.com/photo/2021/01/19/08/46/sandwich-5930490_1280.jpg"
+            alt="img"
+            class="w-full h-50 object-cover"
+          />
+          <div class="p-6">
+            <h3 class="text-lg font-semibold mb-2">Cheese Pizza</h3>
+            <p class="text-gray-600 mb-4">
+              Classic mozzarella cheese with fresh herbs and tomato sauce.
+            </p>
+            <span class="text-lg font-bold text-yellow-500">$10.99</span>
+          </div>
+        </div>
+
+        <!-- --card-2 -->
+        <div
+          class="bg-white shadow-xl rounded-xl overflow-hidden hover:-translate-y-2 transition"
+        >
+          <img
+            src="https://cdn.pixabay.com/photo/2024/05/05/01/08/pasta-8740051_1280.jpg"
+            alt="img"
+            class="w-full h-50 object-cover"
+          />
+          <div class="p-6">
+            <h3 class="text-lg font-semibold mb-2">Alfredo Pasta</h3>
+            <p class="text-gray-600 mb-4">
+              Creamy pasta with parmesan and garlic butter sauce.
+            </p>
+            <span class="text-lg font-bold text-yellow-500">$8.99</span>
+          </div>
+        </div>
+
+        <!-- --card-3 -->
+        <div
+          class="bg-white shadow-xl rounded-xl overflow-hidden hover:-translate-y-2 transition"
+        >
+          <img
+            src="https://cdn.pixabay.com/photo/2020/08/19/14/43/pizza-5501065_1280.jpg"
+            alt="img"
+            class="h-50 w-full object-cover"
+          />
+          <div class="p-6">
+            <h3 class="text-lg font-semibold mb-2">Cheese Pizza</h3>
+            <p class="text-gray-600 mb-4">
+              Loaded with Morazella Cheese, sauces, and thin crust.
+            </p>
+            <span class="text-lg font-bold text-yellow-500">$12.99</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Review Section -->
+    <section class="bg-yellow-50 py-16">
+      <div class="max-w-5xl mx-auto text-center px-6">
+        <h2 class="text-3xl font-bold text-yellow-600 mb-10">
+          Customer Reviews
+        </h2>
+        <div class="grid md:grid-cols-3 gap-8">
+          <!-- First -->
+          <div class="bg-white shadow-xl rounded-xl p-6">
+            <p class="text-gray-600 mb-4">
+              "The food was amazing! Best pizza in town."
+            </p>
+            <span class="text-yellow-600 font-semibold">– Sarah</span>
+          </div>
+          <!-- Second -->
+          <div class="bg-white shadow-xl rounded-xl p-6">
+            <p class="text-gray-600 mb-4">
+              "Excellent service and cozy atmosphere."
+            </p>
+            <span class="text-yellow-600 font-semibold">– John</span>
+          </div>
+          <!-- --Third -->
+          <div class="bg-white p-6 rounded-xl shadow-xl">
+            <p class="text-gray-600 mb-4">
+              "Loved the desserts! Highly recommended."
+            </p>
+            <span class="text-yellow-600 font-semibold">– Priya</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer section -->
+
+    <footer class="bg-gray-900 py-6 text-center text-white">
+      &copy; 2025 TastyBites Restaurant | All Rights Reserved.
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard UI</title>
+    <link rel="stylesheet" href="src/output.css" />
+  </head>
+  <body class="bg-gray-100 text-gray-800 flex min-h-screen">
+    <!-- Sidebar -->
+    <aside class="w-64 bg-blue-600 p-6 text-white md:block hidden">
+      <h2 class="text-2xl font-bold mb-8">MyDashboard</h2>
+      <nav class="space-y-4">
+        <a
+          href="#"
+          class="block px-3 py-2 hover:bg-blue-700 rounded-lg transition"
+          >🏠 Dashboard</a
+        >
+        <a
+          href="#"
+          class="block px-3 py-2 hover:bg-blue-700 rounded-lg transition"
+          >📊 Analytics</a
+        >
+        <a
+          href="#"
+          class="block px-3 py-2 hover:bg-blue-700 rounded-lg transition"
+          >🧾 Reports</a
+        >
+        <a
+          href="#"
+          class="block px-3 py-2 hover:bg-blue-700 rounded-lg transition"
+          >⚙️ Settings</a
+        >
+      </nav>
+    </aside>
+
+    <!-- Dashboard -->
+    <div class="flex flex-col flex-1">
+      <header
+        class="bg-white shadow px-6 py-4 w-full flex items-center justify-between"
+      >
+        <h2 class="text-xl font-semibold">Dashboard Overview</h2>
+        <div class="flex items-center gap-4">
+          <button
+            class="bg-blue-600 px-4 py-2 rounded-lg text-white hover:bg-blue-700 transition"
+          >
+            New Report
+          </button>
+          <img
+            src="WIN_20250206_16_57_56_Pro.jpg"
+            alt="img"
+            class="rounded-[50%] w-10 h-10 object-cover"
+          />
+        </div>
+      </header>
+
+      <!-- Content -->
+      <main class="p-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md gap-6">
+        <div
+          class="shadow p-6 rounded-xl bg-white hover:-translate-y-1 transition"
+        >
+          <h3 class="text-lg font-semibold text-gray-700 mb-2">Total Sales</h3>
+          <p class="text-3xl font-bold text-blue-600">$12,430</p>
+        </div>
+        <div
+          class="shadow bg-white rounded-xl p-6 hover:-translate-y-1 transition"
+        >
+          <h3 class="text-lg text-gray-700 font-semibold mb-2">New Users</h3>
+          <p class="text-3xl font-bold text-blue-600">320</p>
+        </div>
+        <div
+          class="bg-white p-6 rounded-xl shadow hover:-translate-y-1 transition"
+        >
+          <h3 class="text-lg font-semibold text-gray-700 mb-2">
+            Active Projects
+          </h3>
+          <p class="text-3xl font-bold text-blue-600">18</p>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
