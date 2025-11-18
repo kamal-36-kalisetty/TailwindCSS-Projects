@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saas Website</title>
+    <link rel="stylesheet" href="src/output.css" />
+  </head>
+  <body class="antialiased bg-white text-gray-800">
+    <!-- NAVBAR -->
+    <nav
+      class="fixed top-0 z-40 w-full bg-white/70 border border-gray-200 backdrop-blur-lg"
+    >
+      <div
+        class="max-w-7xl mx-auto py-4 px-8 flex justify-between items-center"
+      >
+        <!-- Logo -->
+        <a href="#" class="flex items-center gap-2">
+          <span
+            class="w-8 h-8 bg-gradient-to-br from-teal-500 to-blue-500 rounded-lg"
+          ></span>
+          <span class="text-xl font-bold">Skyline</span>
+        </a>
+        <!-- Menu -->
+        <div class="hidden md:flex items-center gap-8 text-sm font-medium">
+          <a href="#Features" class="hover:text-blue-600">Features</a>
+          <a href="#Pricing" class="hover:text-blue-600">Pricing</a>
+          <a href="#Testimonials" class="hover:text-blue-600">Testimonials</a>
+          <a href="#Contact" class="hover:text-blue-600">Contact</a>
+        </div>
+        <!-- button -->
+        <a
+          href="#Pricing"
+          class="hidden md:block bg-blue-600 py-2 px-4 text-white font-semibold rounded-lg hover:bg-blue-700 transition"
+          >Try Free</a
+        >
+
+        <!-- Mobile-button -->
+        <button class="md:hidden border p-2 border-gray-300 rounded-md">
+          ☰
+        </button>
+      </div>
+    </nav>
+
+    <!-- Hero-section -->
+    <header class="pt-28 pb-20 bg-gradient-to-br from-blue-50 to-blue-100">
+      <div
+        class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-10 px-6 items-center"
+      >
+        <!-- hero left -->
+        <div>
+          <h1 class="text-4xl md:text-5xl font-extrabold leading-tight">
+            Supercharge your workflow with
+            <span class="text-blue-600">Skyline</span>
+          </h1>
+
+          <p class="mt-6 text-lg max-w-lg text-gray-600">
+            Skyline helps teams collaborate better, automate tasks, and deliver
+            products faster — all in one intuitive platform.
+          </p>
+
+          <div class="mt-8 flex flex-wrap gap-4">
+            <a
+              href="#Pricing"
+              class="bg-blue-600 px-6 py-3 font-semibold text-white rounded-md hover:bg-blue-700 transition"
+              >Start Free Trail</a
+            >
+            <a
+              href="#Features"
+              class="px-6 py-3 border rounded-md border-gray-300 hover:bg-gray-100 transition"
+              >View Features</a
+            >
+          </div>
+        </div>
+
+        <!--hero right -->
+        <div>
+          <div class="rounded-2xl overflow-hidden shadow-xl relative">
+            <img
+              src="https://cdn.pixabay.com/photo/2015/06/24/15/45/code-820275_1280.jpg"
+              alt="img"
+              class="w-full h-80 object-cover"
+            />
+
+            <div
+              class="absolute inset-0 bg-gradient-to-tr from-blue-600/20 to-transparent"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Feature section -->
+
+    <section id="Features" class="py-20">
+      <div class="max-w-7xl mx-auto px-6">
+        <h2 class="text-center text-3xl font-bold mb-4">Why choose Skyline?</h2>
+        <p class="text-center text-gray-600 max-w-xl mx-auto mb-14">
+          Tools designed to help your team plan, collaborate, and grow
+          efficiently.
+        </p>
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
+          <!-- feature-1 -->
+          <div
+            class="border p-6 rounded-2xl border-gray-300 hover:shadow-lg transition"
+          >
+            <div
+              class="w-12 h-12 bg-blue-100 text-blue-600 text-xl font-bold flex items-center justify-center mb-4 rounded-xl"
+            >
+              📊
+            </div>
+            <h3 class="text-lg font-semibold mb-2">Smart Analytics</h3>
+            <p class="text-sm text-gray-600">
+              Track your progress and understand insights with real-time
+              dashboards.
+            </p>
+          </div>
+
+          <!-- feature-2 -->
+          <div
+            class="p-6 border rounded-2xl border-gray-300 hover:shadow-xl transition"
+          >
+            <div
+              class="bg-blue-100 w-12 h-12 flex items-center justify-center font-bold text-xl rounded-xl text-blue-600 mb-4"
+            >
+              ⚙️
+            </div>
+            <h3 class="text-lg font-semibold mb-2">Workflow Automation</h3>
+            <p class="text-sm text-gray-600">
+              Automate repetitive tasks and save hours every week.
+            </p>
+          </div>
+
+          <!-- feature-3 -->
+          <div
+            class="p-6 border border-gray-300 rounded-2xl hover:shadow-xl transition"
+          >
+            <div
+              class="bg-blue-100 w-12 h-12 flex items-center justify-center text-xl font-bold rounded-xl text-blue-600 mb-4"
+            >
+              🤝
+            </div>
+            <h3 class="text-lg font-semibold mb-2">Team Collaboration</h3>
+            <p class="text-sm text-gray-600">
+              Communicate easily and stay aligned with shared workspaces.
+            </p>
+          </div>
+          <!-- feature-4 -->
+          <div
+            class="border p-6 border-gray-300 rounded-2xl hover:shadow-xl transition"
+          >
+            <div
+              class="bg-blue-100 w-12 h-12 flex items-center justify-center text-xl font-bold text-blue-600 mb-4 rounded-xl"
+            >
+              🔒
+            </div>
+            <h3 class="text-lg font-semibold mb-2">Security First</h3>
+            <p class="text-sm text-gray-600">
+              Enterprise-level security with encryption and role-based access
+            </p>
+          </div>
+          <!-- feature-5 -->
+          <div
+            class="border p-6 border-gray-300 rounded-2xl hover:shadow-xl transition"
+          >
+            <div
+              class="bg-blue-100 w-12 h-12 flex items-center justify-center text-xl font-bold text-blue-600 mb-4 rounded-xl"
+            >
+              🚀
+            </div>
+            <h3 class="text-lg font-semibold mb-2">Fast Deployment</h3>
+            <p class="text-sm text-gray-600">
+              Get started quickly with templates and easy onboarding.
+            </p>
+          </div>
+          <!-- feature-6 -->
+          <div
+            class="border border-gray-300 rounded-2xl p-6 hover:shadow-xl transition"
+          >
+            <div
+              class="bg-blue-100 w-12 h-12 flex items-center justify-center text-xl font-bold text-blue-600 mb-4 rounded-xl"
+            >
+              🌐
+            </div>
+            <h3 class="text-lg font-semibold mb-2">Integrations</h3>
+            <p class="text-sm text-gray-600">
+              Connect with all your favorite tools like Slack, Notion, and
+              GitHub.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing section -->
+    <section id="Pricing" class="bg-blue-50 py-20">
+      <div class="max-w-6xl mx-auto px-6">
+        <h2 class="text-center text-3xl font-bold mb-8">
+          Plans that grow with you
+        </h2>
+        <!-- pricing section -->
+        <div class="grid md:grid-cols-3 gap-8">
+          <!-- Basic -->
+          <div
+            class="bg-white p-8 rounded-xl border border-gray-200 hover:shadow-xl transition"
+          >
+            <h3 class="text-lg font-semibold mb-2">Basic</h3>
+            <p class="text-gray-500 mb-4">For individuals</p>
+            <div class="text-4xl font-bold mb-6">
+              ₹299<span class="text-base text-gray-500">/mo</span>
+            </div>
+            <ul class="space-y-2 text-sm text-gray-600 mb-6">
+              <li>✔️ 3 projects</li>
+              <li>✔️ Basic analytics</li>
+              <li>✔️ Email support</li>
+            </ul>
+            <a
+              href="#"
+              class="bg-gray-100 py-3 block text-center rounded-lg hover:bg-gray-200 transition"
+              >Choose Trail</a
+            >
+          </div>
+
+          <!-- Pro plan -->
+
+          <div
+            class="bg-blue-600 shadow-2xl p-8 transform scale-105 rounded-xl text-white"
+          >
+            <h2 class="text-lg font-semibold mb-2">Pro</h2>
+            <p class="text-blue-100 mb-4">Most popular</p>
+            <div class="text-4xl font-bold mb-6">
+              ₹999<span class="text-base text-blue-200">/mo</span>
+            </div>
+            <ul class="space-y-2 text-sm text-blue-100 mb-6">
+              <li>✔️ Unlimited projects</li>
+              <li>✔️ Advanced analytics</li>
+              <li>✔️ Priority support</li>
+            </ul>
+            <a
+              href="#"
+              class="text-center py-3 block bg-white text-blue-600 font-semibold rounded-lg hover:bg-gray-100 transition"
+              >Start Trail</a
+            >
+          </div>
+
+          <!-- Enterprise plan -->
+
+          <div
+            class="bg-white p-8 border border-gray-200 rounded-xl hover:shadow-xl transition"
+          >
+            <h3 class="text-lg font-semibold mb-2">Enterprise</h3>
+            <p class="text-gray-500 mb-4">For large teams</p>
+            <div class="text-4xl font-bold mb-6">Custom</div>
+            <ul class="space-y-2 mb-6 text-sm text-gray-600">
+              <li>✔ SSO security</li>
+              <li>✔ Dedicated success manager</li>
+              <li>✔ Custom integrations</li>
+            </ul>
+            <a
+              href="#"
+              class="block py-3 text-center bg-gray-100 rounded-lg hover:bg-gray-200 transition"
+              >Contact Sales</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonails -->
+    <section id="Testimonials" class="py-20">
+      <div class="max-w-5xl mx-auto px-6 text-center">
+        <h2 class="text-3xl font-bold mb-10">What our customers say</h2>
+        <div class="grid sm:grid-cols-2 gap-8">
+          <!-- first -->
+          <div
+            class="border p-6 bg-white border-gray-300 shadow rounded-xl hover:-translate-y-1 transition"
+          >
+            <p class="text-gray-600 mb-4">
+              “Skyline transformed our workflow. Our team works faster and more
+              efficiently.”
+            </p>
+            <div class="font-semibold">— Arjun • Product Lead</div>
+          </div>
+          <!-- second -->
+          <div
+            class="bg-white p-6 border rounded-xl border-gray-300 shadow hover:-translate-y-1 transition"
+          >
+            <p class="text-gray-600 mb-4">
+              “The automation features saved us dozens of hours every month.”
+            </p>
+            <div class="font-semibold">— Mira • Operations Manager</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer id="Contact" class="py-16 bg-gray-900 text-white">
+      <div class="max-w-6xl mx-auto px-6">
+        <div class="grid md:grid-cols-2 gap-10 items-center">
+          <div>
+            <h3 class="text-2xl font-bold mb-2">Ready to try Skyline?</h3>
+            <p class="text-gray-300">
+              Start your free trial today. No credit card required.
+            </p>
+          </div>
+          <div class="flex items-center gap-3">
+            <input
+              type="email"
+              placeholder="Business email"
+              class="bg-white w-full px-4 py-3 md:w-auto rounded-md text-gray-900 focus:outline-none"
+            />
+            <a
+              href="#Pricing"
+              class="bg-blue-500 hover:bg-blue-600 transition px-6 py-3 rounded-md text-white font-semibold"
+              >Start Free</a
+            >
+          </div>
+        </div>
+        <p class="text-gray-400 text-sm mt-10 text-center">
+          © 2025 Skyline. Crafted with care.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
